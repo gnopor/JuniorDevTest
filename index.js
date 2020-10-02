@@ -28,7 +28,7 @@ const main = () => {
   });
 
   // Sending emails every 30 minutes.
-  cron.schedule("* * * * *", async function () {
+  cron.schedule("30 * * * *", async function () {
     const allRecord = await pool.query("SELECT * FROM record;");
 
     let messageOptions = {
