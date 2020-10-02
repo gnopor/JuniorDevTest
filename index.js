@@ -11,7 +11,7 @@ const main = () => {
     service: "gmail",
     auth: {
       user: "mayoublaise@gmail.com",
-      pass: "sniperdennis",
+      pass: "**********",
     },
   });
 
